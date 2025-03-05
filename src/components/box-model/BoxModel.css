@@ -1,0 +1,21 @@
+* {
+    /** Meant to showcase how the box model works */
+    outline: 1px solid var(--meta-primary-white);
+}
+
+#box-model > div {
+    background-color: var(--meta-primary-blue);
+    color: var(--meta-primary-white);
+}
+
+.base-padding {
+    padding: 10px;
+}
+
+.base-max-width {
+    max-width: 250px;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
